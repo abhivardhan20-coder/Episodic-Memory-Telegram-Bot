@@ -1,11 +1,14 @@
 [project]
 name = "telegram-memory-bot"
-version = "0.1.0"
-description = "Add your description here"
+version = "2.0.0"
+description = "AI Diary Companion — persistent memory, daily check-ins, emotional intelligence"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "openai>=2.36.0",
     "python-dotenv>=1.2.2",
     "python-telegram-bot>=22.7",
+    "aiosqlite>=0.21.0",
+    "apscheduler>=3.11.0",
+    "aiofiles>=24.1.0",
 ]

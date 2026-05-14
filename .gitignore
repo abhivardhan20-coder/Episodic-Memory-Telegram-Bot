@@ -12,5 +12,11 @@ wheels/
 # Secrets
 .env
 
-# User memory data
+# Legacy memory data (JSON)
 memory/
+
+# Database & runtime data
+data/
+backups/
+exports/
+logs/
