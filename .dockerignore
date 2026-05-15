@@ -1,0 +1,21 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Data and Logs
+data/
+backups/
+logs/
+exports/
+memory/
+
+# IDE
+.vscode/
+.idea/

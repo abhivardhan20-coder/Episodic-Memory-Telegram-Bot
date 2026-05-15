@@ -1,3 +1,6 @@
+# Version control
+.git
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -5,18 +8,20 @@ build/
 dist/
 wheels/
 *.egg-info
-
-# Virtual environments
-.venv
+.venv/
+.python-version
+uv.lock
 
 # Secrets
 .env
 
-# Legacy memory data (JSON)
-memory/
-
-# Database & runtime data
+# Runtime Data
 data/
 backups/
-exports/
 logs/
+exports/
+memory/
+
+# IDE
+.vscode/
+.idea/

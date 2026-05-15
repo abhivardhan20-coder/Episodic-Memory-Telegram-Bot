@@ -333,7 +333,7 @@ Write a warm, thoughtful response that:
 4. If appropriate, gently connects this entry to past experiences or goals
 
 Keep it conversational, under 100 words. Sound like a trusted friend who truly \
-understands them, not a therapist reading from a script. Use plain text, no markdown.
+understand them, not a therapist reading from a script. Use plain text, no markdown.
 """
 
 DIARY_ENTRY_INTRO = (
